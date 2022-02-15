@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+    <img class="logo" src="./images/logo.svg" alt="">
+  <div class="container">
+    <div class="input">
+      <div class="bill">
+        <label for="bill">Bill</label><br>
+        <input class="bill-input" type="text" align="right" placeholder="0"><br>
+        <img src="./images/icon-dollar.svg" alt="">
+      </div>
+      <label for="select" >Select Tip %</label><br>
+      <div class="btn">
+        <button value="5">5%</button>
+        <button value="10">10%</button>
+        <button value="15">15%</button>
+        <button value="25">25%</button>
+        <button value="50">50%</button>
+        <input type="text" placeholder="Custom" style="text-align: right;">
+      </div>
+      <div class="num">
+        <label for="">Number of people</label>
+        <p class="msg">Can't be zero</p>
+        <br>
+        <input class="number" type="text" placeholder="0" value="1">
+        <img src="./images/icon-person.svg" alt="">
+      </div>
+    </div>
+    <div class="output">
+     <div class="tip">
+      <p>Tip Amount <br> <span>/ person</span></p>
+      <h1 class="tip-amt">$0.00</h1>
+     </div>
+     <div class="total">
+      <p>Total<br><span>/ person</span></p>
+      <h1 class="total-amt">$0.00</h1>
+     </div>
+     <button class="reset" type="reset">Reset</button>
+    </div>
+  </div>
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+</body>
+</html>

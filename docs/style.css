@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;500&family=Poppins:wght@200;300;400;500;600;700;800&family=Rubik:wght@300;400;500&family=Space+Mono:wght@400;700&family=Vujahday+Script&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    background-color: #C5E4E7;
+}
+.container{
+    width: 910px;
+    height: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 19rem;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    width: 90px;
+    height: 55px;
+    top: 20%;
+    left: 46%;
+    
+}
+.input{
+    width: 43%;
+    height: 86.5%;
+    font-size: 18px;
+
+}
+.output{
+    width: 45.1%;
+    height: 86.5%;
+}
+.bill-input{
+    width: 94%;
+    height: 50px;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+input{
+    font-size: 30px;
+    font-family:'Space Mono', monospace ;
+    font-weight: 700;
+    padding-right: 1rem;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 5px;
+}
+input:focus{
+    outline: 2px solid hsl(172, 67%, 45%);
+}
+.btn button,.btn input{
+    font-family:'Space Mono', monospace ;
+    width: 117px;
+    height: 45px;
+    margin-bottom: 1.1rem;
+    padding: 0;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.btn button{
+    background: hsl(183, 100%, 15%);
+    color: white;
+    transition: all 0.2s;
+}
+label{
+    font-weight: 600;
+    color: hsl(184, 14%, 56%);
+}
+.msg{
+    display: none;
+    margin-left: 3.4rem;
+    font-weight: 600;
+    color: rgb(231, 118, 53);
+}
+.error{
+display: inline;
+}
+.btn button:hover{
+cursor: pointer;
+background-color: hsl(172, 67%, 45%);
+color: hsl(183, 100%, 15%);
+}
+.btn input{
+    width: 98px;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+input::placeholder{
+    text-align: right;
+    color: hsl(184, 14%, 56%);
+}
+.number{
+    width: 94%;
+    height: 50px;
+    text-align: right;
+}
+label[for=select]{
+    margin-bottom: 2rem;
+}
+.bill{
+    position: relative;
+}
+.bill img{
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    width: 15px;
+}
+.num{
+    position: relative;
+}
+.num img{
+    position: absolute;
+    top: 55%;
+    left: 4.5%;
+    width: 15px;
+}
+.output{
+    background: hsl(183, 100%, 15%);
+    border-radius: 15px;
+}
+.tip,.total{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.tip{
+    margin-top: 38px;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    color: hsl(172, 67%, 45%);
+}
+.output p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.output p span{
+    font-size: 16px;
+    font-weight: 550;
+    color: hsl(184, 14%, 56%);
+}
+.reset{
+    width: 80%;
+    padding: 0;
+    margin-left: 2.7rem;
+    margin-top: 5rem;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    background-color:#0D686D;
+    color: hsl(183, 100%, 15%);
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.reset:hover{
+    cursor: pointer;
+    background-color: hsl(172, 100%, 61%);
+}
